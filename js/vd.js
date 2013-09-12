@@ -17,8 +17,8 @@ $(document).ready(function(){
     
     //set up map options
     $("#map").mapmarker({
-        zoom    : 9,
-        center  : 'Los Angeles',
+        zoom    : 11,
+        center  : 'Willowbrook, CA',
         markers : myMarkers
     });
 
