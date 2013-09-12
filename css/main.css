@@ -4,8 +4,29 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    margin-left: -400px;
-    margin-top: -247px;
+    margin-left: -410px;
+    margin-top: -257px;
     border: 1px solid rgba(0,0,0, 0.2);
     box-shadow: 0 0 5px rgba(0,0,0, 0.2);
+    padding: 10px;
+}
+
+#banner {
+    display: none;
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+}
+
+.feature {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+.feature .ns {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
