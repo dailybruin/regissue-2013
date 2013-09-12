@@ -1,32 +1,28 @@
-#content {
-    width: 800px;
-    height: 494px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -410px;
-    margin-top: -257px;
-    border: 1px solid rgba(0,0,0, 0.2);
-    box-shadow: 0 0 5px rgba(0,0,0, 0.2);
-    padding: 10px;
-}
-
-#banner {
-    display: none;
+.section {
+    width: 1280px;
+    height: 800px;
     margin: 0 auto;
-    width: 200px;
-    height: 100px;
+    background-position: 50%;
 }
 
-.feature {
-    display: block;
-    width: 200px;
-    height: 200px;
-    background-color: black;
+.contents-overlay {
+    background-color: rgba(255,255,255, 0.5);
+    height: 100%;
+    width: 300px;
 }
 
-.feature .ns {
-    position: absolute;
-    top: 0;
-    left: 0;
+.ns {
+    background: url('../img/ns.jpg')
+}
+
+.sp {
+    background: url('../img/sp.jpg')
+}
+
+.ae {
+    background: url('../img/ae.jpg')
+}
+
+.op {
+    background: url('../img/op.jpg')
 }
