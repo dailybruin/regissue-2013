@@ -5,20 +5,20 @@ $(document).ready(function(){
     main_video_icon = "img/vd/map-marker-blue.png"
     
     function youtubeEmbed(url) {
-        return '<iframe width="420" height="315" src="'+url+'" frameborder="0" allowfullscreen></iframe>'
+        return '<iframe width="560" height="315" src="'+url+'" frameborder="0" allowfullscreen></iframe>'
     }
     //set up markers 
     var myMarkers = {"markers": [
-                    {"latitude": "31.42866311735861", "longitude":"-98.61328125", "icon": main_video_icon, "baloon_text": youtubeEmbed("http://www.youtube.com/embed/My2FRPA3Gf8")},
-                    {"latitude": "35.101934057246055", "longitude":"-96.6796875", "icon": main_video_icon, "baloon_text": 'This is <strong>Oklahoma</strong>'},
-                    {"latitude": "38.61687046392973", "longitude":"-98.876953125", "icon": main_video_icon, "baloon_text": 'This is <strong>Kansas</strong>'}
+                    {"latitude": "34.050224", "longitude":"-118.245450", "icon": main_video_icon, "baloon_text": youtubeEmbed("http://www.youtube.com/embed/OolQsN5eZFI")},
+                    {"latitude": "34.047787", "longitude":"-118.249483", "icon": main_video_icon, "baloon_text": youtubeEmbed("http://www.youtube.com/embed/DvyLH7EKQd4")},
+                    {"latitude": "33.76516328701958", "longitude":"-118.20465087890625", "icon": main_video_icon, "baloon_text": youtubeEmbed("http://www.youtube.com/embed/9mTG72stghY")}
             ]
     };
     
     //set up map options
     $("#map").mapmarker({
-        zoom    : 12,
-        center  : 'UCLA',
+        zoom    : 9,
+        center  : 'Los Angeles',
         markers : myMarkers
     });
 
