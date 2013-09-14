@@ -4,6 +4,11 @@ body {
     overflow-x: hidden;
 }
 
+#banner {
+    display: block;
+    margin: 0 auto;
+}
+
 .section {
     width: 1280px;
     height: 800px;
