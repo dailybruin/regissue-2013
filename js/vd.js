@@ -11,7 +11,8 @@ $(document).ready(function(){
     var myMarkers = {"markers": [
                     {"latitude": "34.050224", "longitude":"-118.245450", "icon": main_video_icon, "baloon_text": youtubeEmbed("http://www.youtube.com/embed/OolQsN5eZFI")},
                     {"latitude": "34.047787", "longitude":"-118.249483", "icon": main_video_icon, "baloon_text": youtubeEmbed("http://www.youtube.com/embed/DvyLH7EKQd4")},
-                    {"latitude": "33.76516328701958", "longitude":"-118.20465087890625", "icon": main_video_icon, "baloon_text": youtubeEmbed("http://www.youtube.com/embed/9mTG72stghY")}
+                    {"latitude": "33.765163", "longitude":"-118.204650", "icon": main_video_icon, "baloon_text": youtubeEmbed("http://www.youtube.com/embed/9mTG72stghY")},
+                    {"latitude": "34.061921", "longitude":"-118.259036", "icon": main_video_icon, "baloon_text": youtubeEmbed("http://www.youtube.com/embed/9mTG72stghY")}
             ]
     };
     

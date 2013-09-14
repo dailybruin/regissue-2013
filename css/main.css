@@ -1,14 +1,31 @@
+body {
+    margin: 0;
+    background-color: white;
+    overflow-x: hidden;
+}
+
 .section {
     width: 1280px;
     height: 800px;
-    margin: 0 auto;
+    margin: 0 auto 10px auto;
     background-position: 50%;
+    /* border-bottom: 1px solid rgba(255,255,255, 0.5); */
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0,0,0, 0.5);
+    box-shadow: 0 0 20px rgba(0,0,0, 0.7) inset;
 }
 
+    .section h1 {
+        margin: 0;
+        font-weight: normal;
+        font-size: 3em;
+    }
+
 .contents-overlay {
-    background-color: rgba(255,255,255, 0.5);
+    background-color: rgba(0,0,0, 0.5);
     height: 100%;
     width: 300px;
+    padding: 0 0 0 0.5em;
 }
 
 .ns {
