@@ -1,50 +1,65 @@
 body {
     margin: 0;
     background-color: white;
-    overflow-x: hidden;
+    font-family: 'Droid Serif', serif;
 }
 
-#banner {
-    display: block;
+h1, h2, h3, h4 {
+    margin: 0.2em 0;
+    font-weight: normal;
+    font-family: 'Droid Serif', serif;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+a:link {
+    text-decoration: underline;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+p {
+    font-family: 'Droid Serif', serif;
+    line-height: 1.5em;
+}
+
+.wrap {
+    width: 1000px;
     margin: 0 auto;
 }
 
-.section {
-    width: 1280px;
-    height: 800px;
-    margin: 0 auto 10px auto;
-    background-position: 50%;
-    /* border-bottom: 1px solid rgba(255,255,255, 0.5); */
-    color: white;
-    text-shadow: 1px 1px 4px rgba(0,0,0, 0.5);
-    box-shadow: 0 0 20px rgba(0,0,0, 0.7) inset;
+.author {
+    display: block;
+    font-style: italic;
+    font-family: 'Droid Serif', serif;
+    margin: -1em 0 0 2em;
 }
 
-    .section h1 {
-        margin: 0;
-        font-weight: normal;
-        font-size: 3em;
-    }
-
-.contents-overlay {
-    background-color: rgba(0,0,0, 0.5);
-    height: 100%;
-    width: 300px;
-    padding: 0 0 0 0.5em;
+.caption {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-size: 0.8em;
+    color: gray;
 }
 
-.ns {
-    background: url('../img/ns.jpg')
+.photo-credit {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-size: 0.8em;
+    color: gray;
+    font-style: italic;
 }
 
-.sp {
-    background: url('../img/sp.jpg')
-}
-
-.ae {
-    background: url('../img/ae.jpg')
-}
-
-.op {
-    background: url('../img/op.jpg')
+.lead {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.4em;
 }
