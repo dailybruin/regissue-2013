@@ -1,10 +1,16 @@
 .bestof-info {
-	display: block;
-	float: left;
-	width: 550px;
+    display: block;
+    float: left;
+    width: 500px;
 }
 
 .bestof-photo {
-	display: block;
-	float: right;
+    display: block;
+    position: relative;
+    float: right;
+}
+
+.slider .photo-credit {
+    float: right;
+    margin-top: 5px;
 }

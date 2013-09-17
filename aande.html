@@ -11,26 +11,39 @@
 <body>
 <script>
     $(document).ready(function(){
-        $('.slider').unslider();
+        var unslider = $('.slider').unslider({
+            speed: 500,               //  The speed to animate each slide (in milliseconds)
+            delay: 3000,              //  The delay between slide animations (in milliseconds)
+            keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+            dots: true,               //  Display dot navigation
+        });
+        
+        $('.unslider-arrow').click(function() {
+        var fn = this.className.split(' ')[1];
+        
+        //  Either do unslider.data('unslider').next() or .prev() depending on the className
+        unslider.data('unslider')[fn]();
+        });
     });
 </script>
 <div class="wrap">
+    <h1>Best of UCLA</h1>
     <div class="slider">
         <ul>
             <li>
-
+                <h3 class="emphasis underline bestof-info" style="padding-bottom: 6px">Best place to eat food</h3>
+                <h2 class="bestof-info">Diddy Riese</h2>
+                <!--img can also go here-->
+                <p class="bestof-info">Lorem ipsum dolor sit amet sollicitudin fermentum urna lorem magna vulputate voluptate turpis sem et anim pellentesque nec. Leo consectetuer risus eget velit viverra odio fermentum nulla integer vitae vitae. Montes dignissim ut. Tellus imperdiet magna. Rhoncus accumsan nec nam adipiscing vitae nec ligula pellentesque. Lacus turpis ante. Modi etiam dui. Ante eu rutrum. Neque asperiores adipiscing sapien aliquam habitant. Lorem etiam ipsum per in placerat. Lectus ut sodales consectetuer pellentesque ante. Turpis et aenean. Donec porta nunc quam consectetuer vestibulum. Quis id lacus. Vitae et orci ut vel consectetuer metus maecenas magna. Interdum id ipsum. Luctus malesuada pede nulla.</p>
+                <img class="bestof-photo" src="img/ae/placeholder-football.jpg"/>
+                <span class="photo-credit">Neil Bedi</span>
             </li>
             <li>This is another slide.</li>
             <li>This is a final slide.</li>
         </ul>
     </div>
-    <div class="bestof-info">
-        <h2>Place to blah blah blah</h2>
-        <p>Acerbic barista ristretto, brewed plunger pot, so sit milk iced extraction. Viennese, saucer espresso, froth, caramelization java doppio dripper half and half latte robusta. Saucer pumpkin spice, iced viennese trifecta, cream fair trade sugar caffeine a coffee.</p>
-    </div>
-    <img class="bestof-photo" src="img/ae/placeholder-football.jpg"/>
-    <span class="photo-credit" style="clear:both">Neil Bedi</span>
-
+    <a href="#" class="unslider-arrow prev">Previous slide</a>
+    <a href="#" class="unslider-arrow next">Next slide</a>
 </div>
 
 </body>

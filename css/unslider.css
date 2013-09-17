@@ -1,3 +1,41 @@
-.slider { position: relative; overflow: auto; }
-    .slider li { list-style: none; }
-        .slider ul li { float: left; }
+.slider {
+    position: relative;
+    overflow: auto;
+    height: 430px !important;
+    margin: 0;
+}
+
+    .slider ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .slider li {
+        list-style: none;
+    }
+
+        .slider ul li {
+            float: left;
+            margin: 0;
+        }
+
+.dots {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+.dot {
+    color: transparent;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.active {
+    background: black;
+}
