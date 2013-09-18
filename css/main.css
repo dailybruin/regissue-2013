@@ -4,6 +4,13 @@ body {
     font-family: 'Droid Serif', serif;
 }
 
+footer {
+    margin: 2em auto 0.5em auto;
+    text-align: center;
+    font-size: 0.8em;
+    color: gray;
+}
+
 h1, h2, h3, h4 {
     margin: 0.2em 0;
     font-weight: normal;
@@ -116,3 +123,22 @@ p {
 .emphasis {
     color: #00aeed
 }
+
+.refer {
+    width: 242px;
+    height: 161px;
+    background-color: white;
+    display: block;
+    float: left;
+    margin-bottom: 1em;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.5) inset;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-align: right;
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+    .refer:hover {
+        box-shadow: 0 0 40px rgba(0,0,0, 0.5) inset;
+    }
