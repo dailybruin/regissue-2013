@@ -20,18 +20,18 @@ h2 {
 
 a:link {
     text-decoration: none;
-    color: #008ccb;
+    color: #00aeed;
     border: 0;
 }
 
 a:visited {
     text-decoration: none;
-    color: #008ccb;
+    color: #00aeed;
 }
 
 a:hover {
-    text-decoration: underline;
-    color: #00aeed;
+    text-decoration: none;
+    color: #008ccb;
 }
 
 p {
@@ -42,7 +42,7 @@ p {
 .nameplate {
     display: block;
     background-color: black;
-    margin: 0.5em auto 1em auto;
+    margin: 1em auto 2em auto;
     border-bottom: 1px solid black;
 }
 
@@ -50,8 +50,10 @@ p {
         background-color: #00aeed;
     }
 
-.emphasis {
-    color: #00aeed
+.back-arrow {
+    display: block;
+    float: left;
+    background-color: black;
 }
 
 .underline {
@@ -61,6 +63,7 @@ p {
 .wrap {
     width: 970px;
     margin: 0 auto;
+    position: relative;
 }
 
 .author {
@@ -87,4 +90,29 @@ p {
     font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     font-size: 1.2em;
     line-height: 1.4em;
+}
+
+.aside {
+    font-family: 'Droid Serif', serif;
+    font-size: 1.8em;
+    line-height: 1.4em;
+    font-style: italic;
+    display: block;
+    width: 400px;
+    color: gray;
+    margin-bottom: 0.5em;
+}
+
+.left {
+    float: left;
+    margin-right: 0.5em;
+}
+
+.right {
+    float: right;
+    margin-left: 0.5em;
+}
+
+.emphasis {
+    color: #00aeed
 }

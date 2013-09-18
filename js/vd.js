@@ -8,19 +8,19 @@ $(document).ready(function(){
         return '<iframe width="560" height="315" src="'+url+'" frameborder="0" allowfullscreen></iframe>'
     }
     //set up markers 
-    var myMarkers = {"markers": [
+    var places = {"markers": [
                     {"latitude": "34.050224", "longitude":"-118.245450", "icon": main_video_icon, "baloon_text": youtubeEmbed("http://www.youtube.com/embed/OolQsN5eZFI")},
                     {"latitude": "34.047787", "longitude":"-118.249483", "icon": main_video_icon, "baloon_text": youtubeEmbed("http://www.youtube.com/embed/DvyLH7EKQd4")},
-                    {"latitude": "33.765163", "longitude":"-118.204650", "icon": main_video_icon, "baloon_text": youtubeEmbed("http://www.youtube.com/embed/9mTG72stghY")},
+                    {"latitude": "34.089914", "longitude":"-118.229198", "icon": main_video_icon, "baloon_text": youtubeEmbed("http://www.youtube.com/embed/9mTG72stghY")},
                     {"latitude": "34.061921", "longitude":"-118.259036", "icon": main_video_icon, "baloon_text": youtubeEmbed("http://www.youtube.com/embed/9mTG72stghY")}
             ]
     };
     
     //set up map options
     $("#map").mapmarker({
-        zoom    : 11,
-        center  : 'Willowbrook, CA',
-        markers : myMarkers
+        zoom    : 13,
+        center  : 'Dodger Stadium, Los Angeles, CA',
+        markers : places
     });
 
 });

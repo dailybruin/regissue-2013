@@ -12,5 +12,19 @@
 
 .slider .photo-credit {
     float: right;
-    margin-top: 5px;
+    margin: 5px 1px 0 0;
+}
+
+.arrow {
+    display: block;
+    position: absolute;
+    top: 260px;
+}
+
+.left {
+    left: -84px;
+}
+
+.right {
+    right: -84px;
 }
