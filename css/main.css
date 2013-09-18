@@ -58,7 +58,7 @@ p {
     }
 
 .back-arrow {
-    display: block;
+    display: none; /* TODO: fix/remove */
     float: left;
     background-color: black;
 }
