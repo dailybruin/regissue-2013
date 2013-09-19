@@ -7,6 +7,17 @@ h3 {
     padding-bottom: 0.2em;
 }
 
+.cover-intro {
+    text-align: center;
+    top: 190px;
+    left: 50%;
+    width: 600px;
+    margin-left: -310px;
+    position: absolute;
+    background-color: rgba(255,255,255, 0.75);
+    padding: 10px;
+}
+
 .bestof-info {
     display: block;
     float: left;
@@ -31,9 +42,9 @@ h3 {
 }
 
 .left {
-    left: -84px;
+    left: -90px;
 }
 
 .right {
-    right: -84px;
+    right: -90px;
 }
