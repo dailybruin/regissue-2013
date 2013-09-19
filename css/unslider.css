@@ -1,7 +1,7 @@
 .slider {
     position: relative;
     overflow: auto;
-    height: 450px !important;
+    height: 600px !important;
     margin: 0;
 }
 
@@ -22,7 +22,7 @@
 .dots {
     clear: both;
     margin: 0;
-    padding: 0;
+    padding: 1em 0 0 0;
 }
 
 .dot {
