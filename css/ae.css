@@ -3,6 +3,10 @@ p {
     margin-bottom: 0;
 }
 
+h3 {
+    padding-bottom: 0.2em;
+}
+
 .bestof-info {
     display: block;
     float: left;
