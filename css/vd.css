@@ -6,3 +6,7 @@
     margin: 0.5em auto;
     background-color: #ddd;
 }
+
+.balloon {
+    max-width: 560px;
+}

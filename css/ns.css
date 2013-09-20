@@ -43,3 +43,13 @@
     box-shadow: 2px 2px 5px rgba(0,0,0, 0.5);
     z-index: 200;
 }
+
+.left {
+    float: left;
+    margin-right: 0.5em;
+}
+
+.right {
+    float: right;
+    margin-left: 0.5em;
+}

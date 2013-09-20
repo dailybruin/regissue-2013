@@ -10,10 +10,24 @@
     <script type="text/javascript" src="js/vd.js"></script>
 </head>
 <body>
-	<div class="wrap">
-		<h1>pLAces: The Coolest Thing Ever</h1>
-		<p class="lead" style="margin-top: -0.2em">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    	<div id="map"></div>
+    <script>
+        $(document).ready(function(){
+            var the_smell = {"latitude": "34.050224", "longitude":"-118.245450", "icon": main_video_icon, "baloon_text":
+                youtubeEmbed("http://www.youtube.com/embed/OolQsN5eZFI")+'<div class="caption balloon">Graffiti, torn couches, and experimental noise rock fill the atmosphere at The Smell. Located in the heart of Downtown Los Angeles, The Smell is an all-ages venue and artist space dedicated to creativity and the D.I.Y.-ethic.</div>'};
+            var last_bookstore = {"latitude": "34.047787", "longitude":"-118.249483", "icon": main_video_icon, "baloon_text":
+                youtubeEmbed("http://www.youtube.com/embed/DvyLH7EKQd4")+'<div class="caption balloon">With its underground culture and ambiance, the Last Bookstore draws in art lovers and curious tourists alike. See why store manager, Katie Orphan, calls it one of the last places of celebration of literature and music in Los Angeles.</div>'};
+            var la_river = {"latitude": "34.089914", "longitude":"-118.229198", "icon": main_video_icon, "baloon_text":
+                youtubeEmbed("http://www.youtube.com/embed/9mTG72stghY")+'<div class="caption balloon">While much of the nearly 48-mile Los Angeles River is covered in concrete, other areas remain covered in plant life. Kayak tours along the river explore the interaction of nature and city life.</div>'};
+            var marionette_theater = {"latitude": "34.061921", "longitude":"-118.259036", "icon": main_video_icon, "baloon_text": 
+                youtubeEmbed("http://www.youtube.com/embed/9mTG72stghY")+'<div class="caption balloon">Hidden beneath a dingy Los Angeles overpass, Bob Baker\'s Marionette Theater continues its fifty year legacy. Veteran puppeteers Eric De La Cruz and Alex Evans discuss their involvement at the historic theater as they carefully pull the strings of an aged art form.</div>'};
+            
+            makeMap(the_smell, last_bookstore, la_river, marionette_theater);
+        });
+    </script>
+    <div class="wrap">
+        <h1>pLAces: The Coolest Thing Ever</h1>
+        <p class="lead" style="margin-top: -0.2em">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div id="map"></div>
     </div>
 </body>
 </html>

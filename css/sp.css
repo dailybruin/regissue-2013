@@ -4,17 +4,18 @@ body {
 
 .bg-text {
     position: absolute;
-    top: 100px;
+    top: 120px;
     left: 40px;
     font-weight: bold;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: rgba(255,255,255, 0.2);
-    font-size: 4em;
+    font-size: 5em;
+    text-transform: uppercase;
 }
 
 .bd-intro {
     text-align: center;
-    margin: 200px auto 0 auto;
+    margin: 250px auto 0 auto;
     width: 900px;
 }
 

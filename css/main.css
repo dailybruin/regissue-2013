@@ -110,16 +110,6 @@ p {
     margin-bottom: 0.5em;
 }
 
-.left {
-    float: left;
-    margin-right: 0.5em;
-}
-
-.right {
-    float: right;
-    margin-left: 0.5em;
-}
-
 .center {
     margin: 0 auto;
     text-align: center;
