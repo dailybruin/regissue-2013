@@ -9,13 +9,14 @@ h3 {
 
 .cover-intro {
     text-align: center;
-    top: 190px;
+    top: 135px;
     left: 50%;
-    width: 600px;
-    margin-left: -310px;
+    width: 670px;
+    margin-left: -345px;
     position: absolute;
-    background-color: rgba(255,255,255, 0.75);
+    background-color: rgba(255,255,255, 0.6);
     padding: 10px;
+    text-shadow: 0px 0px 5px white;
 }
 
 .bestof-info {

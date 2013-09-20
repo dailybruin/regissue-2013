@@ -14,16 +14,8 @@
         border: 2px solid rgba(255,255,0, 1);
     }
     
-    .map-highlight:hover > .map-building {
-        display: block;
-    }
-    
-    .map-highlight:hover > .map-descriptor {
-        display: block;
-    }
-    
 .map-building {
-    display: none;
+    display: block;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -33,15 +25,17 @@
 }
 
 .map-descriptor {
-    display: none;
+    display: block;
+    position: absolute;
     background-color: rgba(255,255,255, 0.85);
     color: black;
-    width: 240px;
+    width: 220px;
     margin-left: -2px;
     padding: 5px;
     font-size: 0.8em;
     box-shadow: 2px 2px 5px rgba(0,0,0, 0.5);
     z-index: 200;
+    border: 1px solid rgba(255,255,255, 0.5);
 }
 
 .left {
