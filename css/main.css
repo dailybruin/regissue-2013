@@ -123,6 +123,7 @@ p {
     color: white;
 }
 
+/* REFERS */
 .refer {
     width: 242px;
     height: 161px;
@@ -141,3 +142,19 @@ p {
     .refer:hover {
         box-shadow: 0 0 40px rgba(0,0,0, 0.5) inset;
     }
+
+#refer-ns {
+    background-image: url('');
+}
+
+#refer-ae {
+    background-image: url('');
+}
+
+#refer-sp {
+    background-image: url('');
+}
+
+#refer-vd {
+    background-image: url('');
+}
