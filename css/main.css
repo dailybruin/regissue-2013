@@ -154,7 +154,8 @@ img {
 }
 
     .refer:hover {
-        box-shadow: 0 0 30px rgba(0,174,237, 0.3) inset;
+        box-shadow: 0 0 30px rgba(0,0,0, 0.5) inset, 0 0 0 1px rgba(0,0,0, 0.2) inset;
+        text-decoration: underline;
     }
     
     .refer .title {
