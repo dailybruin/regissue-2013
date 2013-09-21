@@ -10,3 +10,9 @@
 .balloon {
     max-width: 560px;
 }
+
+
+/* GOOGLE MAPS */
+.gm-style-iw {
+    overflow: hidden !important;
+}
