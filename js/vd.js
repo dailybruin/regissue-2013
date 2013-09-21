@@ -1,7 +1,7 @@
 // Use below link if you want to get latitude & longitude
 // http://www.findlatitudeandlongitude.com/find-address-from-latitude-and-longitude.php
 
-var main_video_icon = "img/vd/map-marker-blue.png"
+var main_video_icon = "../img/vd/map-marker-blue.png"
 function makeMap(markers) {
     
     //set up markers 
