@@ -5,6 +5,7 @@ body {
 }
 
 footer {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin: 3em auto 0.5em auto;
     text-align: center;
     font-size: 0.8em;
@@ -60,6 +61,12 @@ img {
     .nameplate:hover {
         background-color: #00aeed;
     }
+
+.nameplate-invert {
+    display: block;
+    margin: 1em auto 2em auto;
+    border-bottom: 1px solid white;
+}
 
 .back-arrow {
     display: none; /* TODO: fix/remove */
@@ -144,11 +151,14 @@ img {
     text-shadow: 1px 1px 2px black;
     text-align: right;
     font-size: 1.5em;
-    padding: 0.5em;
 }
 
     .refer:hover {
         box-shadow: 0 0 30px rgba(0,174,237, 0.3) inset;
+    }
+    
+    .refer .title {
+        padding: 10px;
     }
 
 #refer-ns {

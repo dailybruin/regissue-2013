@@ -11,6 +11,13 @@
 <body>
     <script>
         $(document).ready(function(){
+            $('.nameplate-invert').hover(
+                function(){
+                    $(this).attr("src", "../img/nameplate_regissue-2013_selected.png");
+                },
+                function(){
+                    $(this).attr("src", "../img/nameplate_regissue-2013_white.png");
+            });
             $('#btn-gallery').magnificPopup({ 
                 type: 'image',
                 gallery: {enabled: true},
@@ -29,12 +36,29 @@
             });
         });
     </script>
+    
+    <header>
+        <a href="http://dailybruin.com/reg2013/"><img class="back-arrow" src="img/arrow_28x_left_mask.png"/><img class="nameplate-invert" src="../img/nameplate_regissue-2013_white.png"/></a>
+    </header>
+    
     <div class="bg-text">Bruin Built</div>
-    <div class="lead light bd-intro">
-        While all UCLA athletes train equally hard, athletes from various sports have very different builds. As each sport focuses on specific muscle groups and uses differing types of athleticism, the time the Bruins spend in the gym yields very unique results.<br/><br/>
-        <a href="#"><div id="btn-gallery" class="btn-light btn-large">See the gallery &raquo;</div></a>
+    
+    <div class="wrap">
+        <div class="lead light bd-intro">
+            While all UCLA athletes train equally hard, athletes from various sports have very different builds. As each sport focuses on specific muscle groups and uses differing types of athleticism, the time the Bruins spend in the gym yields very unique results.<br/><br/>
+            <a href="#"><div id="btn-gallery" class="btn-light btn-large">See the gallery &raquo;</div></a>
+        </div>
+        <div class="gallery">
+        </div>
+        
+        <footer>
+            <a href="../moving-up/"><div id="refer-ns" class="refer"><div class="title">Moving up</div></div></a>
+            <a href="../best-of-ucla/"><div id="refer-ae" class="refer"><div class="title">Best of UCLA</div></div></a>
+            <a href="../bruin-built/"><div id="refer-sp" class="refer"><div class="title">Bruin Built</div></div></a>
+            <a href="../places/"><div id="refer-vd" class="refer"><div class="title">pLAces: videos</div></div></a>
+            &copy; <a href="http://dailybruin.com/">Daily Bruin</a> 2013
+        </footer>
     </div>
-    <div class="gallery">
-    </div>
+    
 </body>
 </html>
