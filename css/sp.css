@@ -1,4 +1,5 @@
 body {
+    color: black;
     background-image: url('../img/sp/bg.png');
 }
 
@@ -34,4 +35,11 @@ body {
 .btn-large {
     font-size: 1.3em;
     padding: 0.5em;
+}
+
+
+/* MAGNIFIC POPUP */
+.mfp-title {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 0.9em;
 }
