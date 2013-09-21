@@ -46,6 +46,10 @@ p {
     line-height: 1.5em;
 }
 
+img {
+    display: block;
+}
+
 .nameplate {
     display: block;
     background-color: black;
@@ -88,7 +92,7 @@ p {
 
 .photo-credit {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 0.8em;
+    font-size: 0.7em;
     color: gray;
     font-style: italic;
 }
@@ -107,7 +111,7 @@ p {
     display: block;
     width: 400px;
     color: gray;
-    margin-bottom: 0.5em;
+    margin: 0.5em 0;
 }
 
 .center {
@@ -115,8 +119,12 @@ p {
     text-align: center;
 }
 
+.smallest {
+    font-size: 0.5em;
+}
+
 .emphasis {
-    color: #00aeed
+    color: #00aeed;
 }
 
 .light {
@@ -131,30 +139,30 @@ p {
     display: block;
     float: left;
     margin-bottom: 1em;
-    box-shadow: 0 0 20px rgba(0,0,0, 0.5) inset;
+    box-shadow: 0 0 30px rgba(0,0,0, 0.3) inset;
     color: white;
     text-shadow: 1px 1px 2px black;
     text-align: right;
     font-size: 1.5em;
-    padding: 1em;
+    padding: 0.5em;
 }
 
     .refer:hover {
-        box-shadow: 0 0 40px rgba(0,0,0, 0.5) inset;
+        box-shadow: 0 0 30px rgba(0,174,237, 0.3) inset;
     }
 
 #refer-ns {
-    background-image: url('');
+    background-image: url('../img/refer/ns.png');
 }
 
 #refer-ae {
-    background-image: url('');
+    background-image: url('../img/refer/ae.png');
 }
 
 #refer-sp {
-    background-image: url('');
+    background-image: url('../img/refer/sp.png');
 }
 
 #refer-vd {
-    background-image: url('');
+    background-image: url('../img/refer/vd.png');
 }
