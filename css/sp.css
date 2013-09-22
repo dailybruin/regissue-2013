@@ -37,6 +37,10 @@ body {
     padding: 0.5em;
 }
 
+.photo-credit {
+    color: gray;
+    font-style: italic;
+}
 
 /* MAGNIFIC POPUP */
 .mfp-title {
