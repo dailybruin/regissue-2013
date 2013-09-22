@@ -42,6 +42,12 @@ a:hover {
     color: #008ccb;
 }
 
+a img {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
 p {
     font-family: 'Droid Serif', serif;
     line-height: 1.5em;
