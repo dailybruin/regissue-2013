@@ -55,6 +55,7 @@ img {
     display: block;
     background-color: black;
     margin: 1em auto 2em auto;
+    border: 0;
     border-bottom: 1px solid black;
 }
 
@@ -65,6 +66,7 @@ img {
 .nameplate-invert {
     display: block;
     margin: 1em auto 2em auto;
+    border: 0;
     border-bottom: 1px solid white;
 }
 
