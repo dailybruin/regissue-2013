@@ -15,8 +15,8 @@ function makeMap(markers) {
     
     //set up map options
     $("#map").mapmarker({
-        zoom    : 13,
-        center  : 'Dodger Stadium, Los Angeles, CA',
+        zoom    : 11,
+        center  : 'Los Angeles, CA',
         markers : places
     });
 }
